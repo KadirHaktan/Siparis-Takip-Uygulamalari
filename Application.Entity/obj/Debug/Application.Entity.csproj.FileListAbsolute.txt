@@ -1,0 +1,17 @@
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\Application.Entity.dll.config
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\Application.Entity.dll
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\Application.Entity.pdb
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\Application.Core.dll
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\EntityFramework.dll
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\FluentValidation.dll
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\Application.Core.pdb
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\Application.Core.dll.config
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\EntityFramework.xml
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\FluentValidation.xml
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\obj\Debug\Application.Entity.csprojResolveAssemblyReference.cache
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\obj\Debug\Application.Entity.dll
+C:\Users\doga\documents\visual studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\obj\Debug\Application.Entity.pdb
+C:\Users\doga\Documents\Visual Studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\PostSharp.dll
+C:\Users\doga\Documents\Visual Studio 2017\Projects\Siparis_Takip_Uygulamasi\Application.Entity\bin\Debug\PostSharp.xml
