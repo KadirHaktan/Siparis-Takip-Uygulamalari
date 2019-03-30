@@ -1,0 +1,144 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Application.UserInterface.Models.EntityModels.Listeleme.MusteriUrunEntityModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TumUrunMusteriler</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Musteri ID</th>
+                        <th scope="col">Musteri Adı</th>
+                        <th scope="col">Musteri Soyadı</th>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var i in Model.Musteriler)
+                    {
+                        <tr>
+                            <td scope="row">@i.ID</td>
+                            <td scope="row">@i.Ad</td>
+                            <td scope="row">@i.Soyad</td>
+                        </tr>
+
+                    }
+
+                </tbody>
+
+            </table>
+        </div>
+
+        <hr class="display-4"/>
+
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Telefon Numarası</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach(var i in Model.Telefonlar)
+                    {
+                        <tr>
+                            <td scope="row">@i.TelefonNo</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="display-4" />
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Tam Adres</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var i in Model.Adresler)
+                    {
+                        <tr>
+                            <td scope="row">@i.TamAdres</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="display-4" />
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Urun ID</th>
+                        <th scope="col">Urun Adı</th>
+                        <th scope="col">Urun Fiyatı</th>
+                        <th scope="col">Stok Adeti</th>
+                        <th scope="col">Urunu alan Musteri ID</th>
+                        <th scope="col">Urunun Barkod ID</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach(var i in Model.Urunler)
+                    {
+                        <tr>
+                            <td scope="row">@i.ID</td>
+                            <td scope="row">@i.Ad</td>
+                            <td scope="row">@i.Fiyat</td>
+                            <td scope="row">@i.Adet</td>
+                            <td scope="row">@i.MusteriID</td>
+                            <td scope="row">@i.BarkodID</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <hr class="display-4" />
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Urunun Barkod Numarası</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach(var i in Model.Barkodlar)
+                    {
+                        <tr>
+                            <td scope="row">@i.BarkodNo</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+   
+</body>
+</html>
