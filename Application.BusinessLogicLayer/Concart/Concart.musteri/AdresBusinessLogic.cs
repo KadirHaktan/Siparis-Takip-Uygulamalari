@@ -22,7 +22,7 @@ namespace Application.BusinessLogicLayer.Concart.Concart.musteri
             this.dal = dal;
         }
 
-        //[FluentValidationAspect(typeof(AdresValidation))]
+        [FluentValidationAspect(typeof(AdresValidation))]
         public Adres Add(Adres entity)
         {
             //FluentValidationTool.Validate(new AdresValidation(), entity);

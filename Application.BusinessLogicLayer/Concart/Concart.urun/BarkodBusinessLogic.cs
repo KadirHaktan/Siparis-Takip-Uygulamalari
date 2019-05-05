@@ -40,7 +40,7 @@ namespace Application.BusinessLogicLayer.Concart.Concart.urun
             return dal.GetAll();
         }
 
-        [FluentValidationAspect(typeof(BarkodValidation))]
+        //[FluentValidationAspect(typeof(BarkodValidation))]
         public Barkod Update(Barkod entity)
         {
             //FluentValidationTool.Validate(new BarkodValidation(), entity);

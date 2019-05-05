@@ -36,7 +36,7 @@ namespace Application.BusinessLogicLayer.Concart.Concart.urun
             return dal.GetAll();
         }
 
-        [FluentValidationAspect(typeof(UrunValidation))]
+        //[FluentValidationAspect(typeof(UrunValidation))]
         public Urun Update(Urun entity)
         {
             return dal.Update(entity);

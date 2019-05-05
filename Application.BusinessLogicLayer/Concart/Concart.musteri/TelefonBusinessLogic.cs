@@ -21,7 +21,7 @@ namespace Application.BusinessLogicLayer.Concart.Concart.musteri
             this.dal = dal;
         }
 
-        //[FluentValidationAspect(typeof(TelefonValidation))]
+        [FluentValidationAspect(typeof(TelefonValidation))]
         public Telefon Add(Telefon entity)
         {
            //FluentValidationTool.Validate(new TelefonValidation(), entity);

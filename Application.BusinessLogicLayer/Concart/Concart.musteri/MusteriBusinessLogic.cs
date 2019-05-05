@@ -23,6 +23,7 @@ namespace Application.BusinessLogicLayer.Concart.Concart.musteri
         }
 
        
+
         public Musteri Add(Musteri entity)
         {
             FluentValidationTool.Validate(new MusteriValidation(), entity);
@@ -40,7 +41,7 @@ namespace Application.BusinessLogicLayer.Concart.Concart.musteri
             return dal.GetAll();
         }
 
-        [FluentValidationAspect(typeof(MusteriValidation))]
+        //[FluentValidationAspect(typeof(MusteriValidation))]
         public Musteri Update(Musteri entity)
         {
             //FluentValidationTool.Validate(new MusteriValidation(), entity);

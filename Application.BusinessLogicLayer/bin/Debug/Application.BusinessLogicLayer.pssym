@@ -1,34 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Symbols LinesOfCode="115" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[Application.Core]Application.Core.Aspect.postSharp.ValidationAspect.FluentValidationAspect">
-    <Instance Declaration="#2=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.urun.BarkodBusinessLogic::Add(Application.Entity.Urun.Barkod)" Id="1b214aa8781e6e4f">
+    <Instance Declaration="#2=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.urun.BarkodBusinessLogic::Add(Application.Entity.Urun.Barkod)" Id="1b214aa8eca27857">
       <Target>
         <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
       </Target>
     </Instance>
-    <Instance Declaration="#4=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.urun.BarkodBusinessLogic::Update(Application.Entity.Urun.Barkod)" Id="1b214aa80b48f61a">
+    <Instance Declaration="#4=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.urun.UrunBusinessLogic::Add(Application.Entity.Urun.Urun)" Id="1b214aa8b1f033c9">
       <Target>
         <JoinPoint Advising="#1" Description="#3" />
       </Target>
     </Instance>
-    <Instance Declaration="#5=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.urun.UrunBusinessLogic::Add(Application.Entity.Urun.Urun)" Id="1b214aa8cfc428f1">
+    <Instance Declaration="#5=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.musteri.AdresBusinessLogic::Add(Application.Entity.Musteri.Adres)" Id="1b214aa80f7e3b61">
       <Target>
         <JoinPoint Advising="#1" Description="#3" Ordinal="2" />
       </Target>
     </Instance>
-    <Instance Declaration="#6=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.urun.UrunBusinessLogic::Update(Application.Entity.Urun.Urun)" Id="1b214aa8829e07a1">
+    <Instance Declaration="#6=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.musteri.TelefonBusinessLogic::Add(Application.Entity.Musteri.Telefon)" Id="1b214aa86bf96346">
       <Target>
         <JoinPoint Advising="#1" Description="#3" Ordinal="3" />
       </Target>
     </Instance>
-    <Instance Declaration="#7=M:[Application.BusinessLogicLayer]Application.BusinessLogicLayer.Concart.Concart.musteri.MusteriBusinessLogic::Update(Application.Entity.Musteri.Musteri)" Id="1b214aa82d15bfa7">
-      <Target>
-        <JoinPoint Advising="#1" Description="#3" Ordinal="4" />
-      </Target>
-    </Instance>
   </Class>
-  <Annotation Target="#8=M:[Application.Core]Application.Core.Aspect.postSharp.ValidationAspect.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9=2" Description="#10=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#11=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9" Description="#10" />
-  <Annotation Target="#12=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9" Description="#10" />
-  <Annotation Target="#13=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9" Description="#10" />
+  <Annotation Target="#7=M:[Application.Core]Application.Core.Aspect.postSharp.ValidationAspect.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8=2" Description="#9=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#10=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8" Description="#9" />
+  <Annotation Target="#11=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8" Description="#9" />
+  <Annotation Target="#12=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#8" Description="#9" />
 </Symbols>
